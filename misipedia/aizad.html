@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misipedia: Semua tentang MISI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White background */
+            color: #333; /* Dark text for contrast */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-image: url(image/hero.png); /* Replace with your hero image URL */
+            background-size: cover;
+            background-position: center;
+            color: white; /* White text */
+            padding: 25px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 20px;
+            color: white; /* White links */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffe0b2; /* Light orange on hover */
+        }
+        h1 {
+            font-size: 2.5em; /* Larger title */
+            margin: 0; /* Remove default margin */
+        }
+        h3 {
+            font-size: 1.5em; /* Subtitle size */
+            margin: 10px 0; /* Space around subtitle */
+        }
+        .profile {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: center; /* Center text in profile */
+        }
+        .profile img {
+            width: 200px; /* Character image width */
+            height: auto;
+            border-radius: 30px; /* Border radius for image */
+            margin-top: 10px; /* Space above the image */
+        }
+        .profile h2 {
+            font-size: 2em;
+            color: #444;
+            margin-bottom: 10px; /* Space below the character name */
+        }
+        .detail-item {
+            display: flex; /* Use flexbox for alignment */
+            justify-content: space-between; /* Space between label and text */
+            align-items: center; /* Center items vertically */
+            margin: 10px 0; /* Space around details */
+        }
+        .detail-item strong {
+            color: #ff5722; /* Light orange for labels */
+            min-width: 150px; /* Fixed width for labels */
+            text-align: justify; /* Justify text in labels */
+        }
+        .detail-text {
+            flex-grow: 1; /* Allow text to take available space */
+            text-align: justify; /* Justify text next to labels */
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+            .profile {
+                padding: 15px; /* Adjust padding for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MISIPEDIA</h1>
+    <h3>Semua tentang MISI!</h3>
+    <nav>
+        <a href="#misi-characters">Characters</a>
+        <a href="#misi-worlds">Worlds</a>
+        <a href="#misi-stories">Stories</a>
+        <a href="#misi-fan-art">Fan Art</a>
+    </nav>
+</header>
+
+<section class="profile" id="misi-characters">
+    <h2>Aizad</h2>
+    <img src="image/aizad.png" alt="Character Name"> <!-- Replace with the character image URL -->
+
+    <div class="detail-item">
+        <strong>Nama Penuh:</strong>
+        <span class="detail-text">Aizad bin Ahmad</span>
+    </div>
+	    <div class="detail-item">
+        <strong>Misi:</strong>
+        <span class="detail-text">Buka sekolah seni bela diri</span>
+    </div>
+    <div class="detail-item">
+        <strong>Kelebihan:</strong>
+        <span class="detail-text">Seni bela diri</span>
+    </div>
+    <div class="detail-item">
+        <strong>Perilaku:</strong>
+        <span class="detail-text">Mudah ketawa, seorang yang extrovert, suka menunjuk tetapi seorang yang setia kawan</span>
+    </div>
+    <div class="detail-item">
+        <strong>Penampilan:</strong>
+        <span class="detail-text">Ketinggian sederhana, mempunyai badan yang tegap sebagai seorang atlet, mempunyai janggut nipis dan rambut pacak</span>
+    </div>
+    <div class="detail-item">
+        <strong>Sekilas:</strong>
+        <span class="detail-text">Dalam Misi 8A,</span>
+    </div>
+</section>
+
+</body>
+</html>
